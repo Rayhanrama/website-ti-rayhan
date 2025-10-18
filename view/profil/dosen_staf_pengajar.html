@@ -4,22 +4,29 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dosen / Staf Pengajar</title>
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       crossorigin="anonymous"
     />
+
+    <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
+
   <body>
-    <!-- icon start -->
+    <!-- Top Social Icons -->
     <div class="container-fluid">
       <div class="row bg-primary">
         <div
@@ -29,22 +36,22 @@
           <a
             class="text-white"
             href="https://web.facebook.com/teknologiinformasipnp/?locale=id_ID&_rdc=1&_rdr#"
-            ><i class="bi bi-facebook" style="font-size: 1.3rem"></i
+            ><i class="bi bi-facebook fs-5"></i
           ></a>
           <a
             class="text-white"
             href="https://www.instagram.com/teknologiinformasipnp/"
-            ><i class="bi bi-instagram" style="font-size: 1.3rem"></i
+            ><i class="bi bi-instagram fs-5"></i
           ></a>
           <a
             class="text-white"
             href="https://www.youtube.com/@teknologiinformasi-politek6397"
-            ><i class="bi bi-youtube" style="font-size: 1.3rem"></i
+            ><i class="bi bi-youtube fs-5"></i
           ></a>
         </div>
       </div>
     </div>
-    <!-- icon end-->
+    <!-- End Top Icons -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -58,7 +65,20 @@
           />
         </a>
 
-        <!-- Menu Navigasi -->
+        <!-- Hamburger Button -->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Menu -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -69,16 +89,17 @@
                 >Home</a
               >
             </li>
+
+            <!-- Profil Dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="Profil"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                >Profil</a
               >
-                Profil
-              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="sejarah.html">Sejarah</a>
@@ -100,7 +121,7 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="struktur_organisasi.html"
-                    >Struktur organisasi</a
+                    >Struktur Organisasi</a
                   >
                 </li>
                 <li>
@@ -118,17 +139,18 @@
                 </li>
               </ul>
             </li>
+
+            <!-- Program Studi Dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="program studi"
+                href="#"
                 role="button"
                 data-bs-auto-close="outside"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                >Program Studi</a
               >
-                Program Studi
-              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="../prodi/trpl.html"
@@ -142,7 +164,7 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="../prodi/mi.html"
-                    >D3 Manajemn Informatika</a
+                    >D3 Manajemen Informatika</a
                   >
                 </li>
                 <li>
@@ -157,8 +179,8 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="../prodi/si.html"
-                    >D3 Sistem Informasi (PSDKU Tanah Datar)
-                  </a>
+                    >D3 Sistem Informasi (PSDKU Tanah Datar)</a
+                  >
                 </li>
                 <li>
                   <a class="dropdown-item" href="../prodi/mipsdku.html"
@@ -172,16 +194,17 @@
                 </li>
               </ul>
             </li>
+
+            <!-- Akademik Dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="Akademik"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                >Akademik</a
               >
-                Akademik
-              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="../home/akreditasi.html"
@@ -195,12 +218,12 @@
                 </li>
                 <li>
                   <a class="dropdown-item" href="../home/download.html"
-                    >SOP-Panduan</a
+                    >SOP - Panduan</a
                   >
                 </li>
                 <li>
                   <a class="dropdown-item" href="../akademik/ukt.html"
-                    >Uang Kuliah Tunggak</a
+                    >Uang Kuliah Tunggal</a
                   >
                 </li>
                 <li>
@@ -212,15 +235,16 @@
                 </li>
               </ul>
             </li>
+
+            <!-- Penelitian & Kerja Sama -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="Penelitian & Kerja Sama"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              >
-                Penelitian & Kerja Sama</a
+                >Penelitian & Kerja Sama</a
               >
               <ul class="dropdown-menu">
                 <li>
@@ -239,16 +263,17 @@
                 </li>
               </ul>
             </li>
+
+            <!-- Hubungi Kami -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="Contact"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                >Hubungi Kami</a
               >
-                Hubungi Kami
-              </a>
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="../contact/contact.html"
@@ -264,84 +289,666 @@
             </li>
           </ul>
         </div>
-
-        <!-- Tombol Hamburger -->
-        <button
-          class="navbar-toggler ms-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
       </div>
     </nav>
-
     <!-- Navbar End -->
+
+    <!-- Header Section -->
     <div class="container-fluid bg-secondary bg-opacity-25">
       <div class="container">
         <div class="row justify-content-start">
           <div class="col-12 col-md-8 text-start">
-            <p class="fs-4 fs-md-3 mt-3">Sejarah</p>
+            <p class="fs-4 mt-3">Dosen / Staf Pengajar</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container text">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 text-center">
-          <h1 class="mt-3">
-            <a href="#" class="d-inline-block mb-2">
-              <img
-                src="../../img/black-ti-removebg-preview.png"
-                alt="Logo"
-                class="img-fluid"
-                style="width: 250px; height: 100px"
-              />
-            </a>
-          </h1>
+    <div class="container mt-4 mb-5">
+      <div class="row g-4 justify-content-center">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/mooduto-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Ir. Hanriyawan Adnan Mooduto, M.Kom
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ronalhadi-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ronal Hadi, S.T., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/yuhefizar-1-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Dr. Ir. Yuhefizar, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/humaira.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Humaira, S.T., M.T</h5>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="row g-3 text-justify">
-        <div class="card shadow-sm border-0">
-          <div class="card-body">
-            <p>
-              Gagasan pendirian jurusan Teknologi informasi sudah ada sejak awal
-              tahun 2000, namun terkendala karena beberapa pertimbangan antara
-              lain ketersediaan Sumber Daya Manusia dan Infrastruktur. Pada awal
-              bulan Februari 2005, beberapa orang dosen yang antara lain terdiri
-              dari Erwadi Bakar, Surfayondri, Andrizal, H. A. Mooduto, Yulindon,
-              Ahmad Dahlan, Ronal Hadi dan Rahmat Hidayat, atas dukungan yang
-              kuat dari pimpinan Politeknik Suhendrik Hanwar dan pimpinan
-              lainnya membuat proposal pendirian program studi yang berkaitan
-              dengan Teknologi Informasi.
-            </p>
-            <p>
-              Dasar utama pendirian ini adalah keinginan Politeknik Unand Padang
-              untuk ikut berkontribusi secara maksimal dalam pengembangan dan
-              penerapan teknologi informasi melalui dunia pendidikan serta
-              sebagai langkah antisipasi perkembangan teknologi informasi dan
-              komunikasi yang demikian cepat yang tentunya membutuhkan SDM untuk
-              mengelolanya.
-            </p>
-            <p>
-              Program Studi yang diusulkan pada waktu itu adalah Teknik
-              Komputer, Teknik Informatika dan Manajemen Informatika.
-              Alhamdulillah dalam waktu yang tidak terlalu lama, izin pendirian
-              program studi ini disetujui oleh dikti untuk dua program Studi,
-              yaitu Teknik Komputer dan Manajemen Informatika, tentunya ini
-              berkat kepercayaan dikti kepada Politeknik Unand Padang.
-              Penerimaan mahasiswa baru angkatan pertama dilaksanakan pada bulan
-              September 2005, terlambat dua minggu dari penerimaan mahasiswa
-              jurusan lainnya. Atas kesepakat tim, untuk tahap awal mengelolaan
-              jurusan ini dipercayakan kepada Erwadi Bakar sebagai Ketua Jurusan
-              dan Ronal Hadi sebagai Sekretaris Jurusan….
-            </p>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/yance-sonatha-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Yance Sonatha, S.Kom., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/meriazmi2-526x526.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Meri Azmi, S.T., M.Cs</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Rasyidah-2-255x255.png"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Rasyidah, S.Si., M.M</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ramathidayat-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ir. Rahmat Hidayat, S.T., M.Sc.IT</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/rita-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Rita Afyenni, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/hidra-526x526.png"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Hidra Amnur, S.Kom., S.E., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/dwiny.jpeg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Dwiny Meidelfi, S.Kom., M.Cs</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/deddy-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Deddy Prayama, S.Kom., M.ISD</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Cipto-526x526.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Cipto Prabowo, S.T., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/yulherniwati-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Dr. Yulherniwati, S.Kom., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ervanasri-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ervan Asri, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/DEFNI-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Defni, S.Si., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/rika-idmayanti-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Rika Idmayanti, S.T., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ikhsnyusdajpg-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Ikhsan Yusda Prima Putra, S.H., L.LM
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/INDRI-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Indri Rahmayuni, S.T., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Ojix-526x526.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Fazrol Rozi, M.Sc</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Fitri-Nova-1-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Fitri Nova, S.ST., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/raemon-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Raemon Syaljumairi, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/alde-alanda-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Alde Alanda, S.Kom., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/roni-putra.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Roni Putra, S.Kom., M.T</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Tari-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Tri Lestari, S.Pd., M.Eng</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Fanny-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Fanni Sukma, S.ST., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ardi-syawaldipa-600x600.png"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ardi Syawaldipa, S.Kom., M.T</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Andrew-Kurniawan-Vadreas-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Andrew Kurniawan Vadreas, S.Kom., M.T
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Hendra-Rotama-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Hendra Rotama, S.Pd., M.Sn</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/IDEVA-GAPUTRA-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ideva Gaputra, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Yulia-Jihan-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Yulia Jihan Sy, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Muhammad-Ibrahim-Nasution-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Muhammad Ibrahim Nasution, S.Pd., M.Kom
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Yori-Adi-Atma-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Yori Adi Atma, S.Pd., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/ulya-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Ulya Ilhami Arsyah, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Sumema-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Sumema, S.Ds., M.Ds</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Rajimar-Hasibuan-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Rajimar Suhal Hasibuan, S.T., M.M.S.I
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Card 1 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Taruma-Leo-Wijaya-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">
+                Taruma Leo Wijaya, S.Kom., M.M.S.I
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Edwar-Rosman-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Edwar Rosman, S.Kom., M.Kom</h5>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+        >
+          <div class="card shadow-sm border-0">
+            <img
+              src="../../img/Mutia-Rahmi-Dewi-255x255.jpg"
+              class="card-img-top h-100"
+              alt="dosen"
+            />
+            <div class="card-body bg-secondary bg-opacity-10 text-center">
+              <h5 class="card-title mb-1">Mutia Rahmi Dewi, S.Kom., M.Kom</h5>
+            </div>
           </div>
         </div>
       </div>
@@ -350,7 +957,7 @@
     <!-- Footer Start -->
     <div class="container-fluid mt-3 bg-dark text-white pt-4 pb-3">
       <div class="row ps-lg-5 text-center text-md-start">
-        <!-- Kolom Logo & Alamat -->
+        <!-- Logo & Address -->
         <div class="col-12 col-sm-6 col-md-3 mb-4">
           <a href="#" class="d-inline-block mb-2">
             <img
@@ -368,10 +975,10 @@
           </p>
         </div>
 
-        <!-- Kolom Academy -->
+        <!-- Academy -->
         <div class="col-6 col-md-3 mb-4">
           <h6 class="fw-bold">OUR ACADEMY</h6>
-          <ul>
+          <ul class="list-unstyled">
             <li>MikroTik Academy</li>
             <li>RedHat Academy</li>
             <li>Oracle Academy</li>
@@ -381,10 +988,10 @@
           </ul>
         </div>
 
-        <!-- Kolom Links -->
+        <!-- Useful Links -->
         <div class="col-6 col-md-3 mb-4">
           <h6 class="fw-bold">USEFUL LINKS</h6>
-          <ul>
+          <ul class="list-unstyled">
             <li>Academy</li>
             <li>Akreditasi</li>
             <li>Fasilitas</li>
@@ -393,7 +1000,7 @@
           </ul>
         </div>
 
-        <!-- Kolom Social -->
+        <!-- Social -->
         <div class="col-12 col-md-3 mb-4">
           <h6 class="fw-bold">FOLLOW US</h6>
           <div
@@ -402,17 +1009,17 @@
             <a
               class="text-white"
               href="https://web.facebook.com/teknologiinformasipnp/?locale=id_ID&_rdc=1&_rdr#"
-              ><i class="bi bi-facebook" style="font-size: 1.3rem"></i
+              ><i class="bi bi-facebook fs-5"></i
             ></a>
             <a
               class="text-white"
               href="https://www.instagram.com/teknologiinformasipnp/"
-              ><i class="bi bi-instagram" style="font-size: 1.3rem"></i
+              ><i class="bi bi-instagram fs-5"></i
             ></a>
             <a
               class="text-white"
               href="https://www.youtube.com/@teknologiinformasi-politek6397"
-              ><i class="bi bi-youtube" style="font-size: 1.3rem"></i
+              ><i class="bi bi-youtube fs-5"></i
             ></a>
           </div>
         </div>
@@ -430,24 +1037,24 @@
           <a
             class="text-white"
             href="https://web.facebook.com/teknologiinformasipnp/?locale=id_ID&_rdc=1&_rdr#"
-            ><i class="bi bi-facebook" style="font-size: 1.3rem"></i
+            ><i class="bi bi-facebook fs-5"></i
           ></a>
           <a
             class="text-white"
             href="https://www.instagram.com/teknologiinformasipnp/"
-            ><i class="bi bi-instagram" style="font-size: 1.3rem"></i
+            ><i class="bi bi-instagram fs-5"></i
           ></a>
           <a
             class="text-white"
             href="https://www.youtube.com/@teknologiinformasi-politek6397"
-            ><i class="bi bi-youtube" style="font-size: 1.3rem"></i
+            ><i class="bi bi-youtube fs-5"></i
           ></a>
         </div>
       </div>
     </div>
-
     <!-- Footer End -->
 
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
